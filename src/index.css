@@ -420,21 +420,14 @@ list-style: none;
   }
 
   .order-total button {
-    display: none;
-  }
+  display: block;
+  width: 100%;
+  height: 44px;
+  background-color: #FDC913;
+  border-radius: 6px;
+  font-weight: bold;
+}
 
-  .order-actions::after {
-    content: "SİPARİŞ VER";
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 44px;
-    background-color: #FDC913;
-    color: black;
-    font-weight: bold;
-    border-radius: 6px;
-    cursor: pointer;
-  }
 
 
 
